@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29318.209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Face", "Face\Face.csproj", "{12E386DE-919F-483B-B6A6-9D885DE3B81B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Computer Vision", "Computer Vision\Computer Vision.csproj", "{47FDD4E5-E759-449D-A88E-4E4209D0D06D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12E386DE-919F-483B-B6A6-9D885DE3B81B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12E386DE-919F-483B-B6A6-9D885DE3B81B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12E386DE-919F-483B-B6A6-9D885DE3B81B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12E386DE-919F-483B-B6A6-9D885DE3B81B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47FDD4E5-E759-449D-A88E-4E4209D0D06D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47FDD4E5-E759-449D-A88E-4E4209D0D06D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47FDD4E5-E759-449D-A88E-4E4209D0D06D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47FDD4E5-E759-449D-A88E-4E4209D0D06D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CEBF4F7F-9563-4884-91EF-A482BD1C12E8}
+	EndGlobalSection
+EndGlobal
