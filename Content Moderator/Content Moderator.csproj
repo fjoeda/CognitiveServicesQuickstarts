@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{47FDD4E5-E759-449D-A88E-4E4209D0D06D}</ProjectGuid>
+    <ProjectGuid>{4A95274E-13FF-491C-A420-82F092FD277A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Computer_Vision</RootNamespace>
-    <AssemblyName>Computer Vision</AssemblyName>
+    <RootNamespace>Content_Moderator</RootNamespace>
+    <AssemblyName>Content Moderator</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -55,8 +55,8 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.Azure.CognitiveServices.Vision.ComputerVision, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.5.0.0\lib\net452\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll</HintPath>
+    <Reference Include="Microsoft.Azure.CognitiveServices.ContentModerator, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Azure.CognitiveServices.ContentModerator.2.0.0\lib\net452\Microsoft.Azure.CognitiveServices.ContentModerator.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Rest.ClientRuntime, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Rest.ClientRuntime.2.3.18\lib\net452\Microsoft.Rest.ClientRuntime.dll</HintPath>

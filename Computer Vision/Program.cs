@@ -13,7 +13,7 @@ namespace Computer_Vision
         static void Main(string[] args)
         {
             string imageUrl = "http://i.dailymail.co.uk/i/pix/2017/04/05/08/3EF0483400000578-4379890-NOT_FOR_USE_ON_GREETING_CARDS_POSTCARDS_CALENDARS_OR_ANY_MERCHAN-a-79_1491379088606.jpg";
-            var client = Authenticate("https://botvisionku.cognitiveservices.azure.com/", "7b81e60329154bb69a90f307b238690d");
+            var client = Authenticate("https://resource-name.cognitiveservices.azure.com/", "key");
             AnalyzeImageUrl(client, imageUrl);
             Console.ReadLine();
         }

@@ -13,7 +13,7 @@ namespace Face
         static void Main(string[] args)
         {
             string imageUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Child%27s_Angry_Face.jpg/1200px-Child%27s_Angry_Face.jpg";
-            var client = Authenticate("https://modulface.cognitiveservices.azure.com/", "092dc72500c545bbb568376cb19fbb17");
+            var client = Authenticate("https://resource-name.cognitiveservices.azure.com/", "key");
             DetectFaceExtract(client, imageUrl, RecognitionModel.Recognition01);
             Console.ReadLine();
         }
